@@ -1,0 +1,122 @@
+body{
+    background-image: linear-gradient(#ee9ca7,#ffdde1); 
+    font-family: Amiri;
+    background-size :cover;
+    background-attachment:fixed;
+    padding:2vw;
+    padding-top:0;
+    padding-bottom:0;
+    color:black;
+}
+h1{
+    font-size:6vw;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    border-bottom:0.37vw solid rgb(230, 28, 219);
+    padding-bottom: 2px;
+    /* display: inline-block;*/
+    width:fit-content;
+    margin:2vw auto; 
+    color:rgb(230, 28, 219)
+}
+
+#links{
+    text-align:center;
+    font-size:2vw;
+    font-family:"Playball";
+    color:white
+    
+}
+a{
+    color:rgb(27, 172, 177);
+    background:rgb(255, 255, 255);
+    margin:5vw;
+    padding:1vw;
+
+    border-radius: 3vw;
+    width : fit-content;
+
+}
+#top{
+    margin-top:2vw;
+    display: none;
+}
+img{
+    
+    background:rgb(223, 91, 91);
+    border:3px solid #ddd;
+    opacity: 1;
+    border-radius: 14px;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.5);
+    width:20%;
+    margin:2% 5%;
+    margin-bottom:0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transition: background-color 0.5s ease;
+}
+#rock:active,#scissor:active,#paper:active{
+    background-color:black
+}
+h2{
+    text-align:center;
+    text-anchor: end;
+    text-decoration-line: underline;
+    font-size: 3vw;
+    font-family: Amiri;
+    color:rgb(170, 76, 128);
+    margin:2rem;
+
+}
+#total{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    font-size:2vw;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:2rem;
+    padding-top:1rem;
+    /* border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px; */
+    box-shadow: 8px 8px 18px 0 gray;
+    background-image: radial-gradient(#D6A4A4,#E0EAFC); 
+    height: 100vh;
+
+}
+p{
+    display: inline-block;
+    width:20%;
+    margin:5%;
+    text-align:center;
+    margin-top:0;
+    background: #dddddd;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.5);
+    color:black; 
+    transition :2s ease; 
+}
+#rule ,#about{
+    display: none;
+}
+#play{
+    margin-top:3rem;
+}
+
+#hidden{
+    text-align:center;
+    font-size:4vw;
+    font-family: 'Kaushan Script', cursive;
+    color:green;
+    border-bottom:0.4vw solid green;
+    /* display: inline-block; */
+     width: fit-content; 
+    margin:0 auto;
+    animation-name:exam;
+    animation-delay: 1s;
+    /* background-color: #D6A4A4; */
+}
+  
+    
+
+
